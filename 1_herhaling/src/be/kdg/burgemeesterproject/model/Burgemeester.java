@@ -132,7 +132,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 		 */
 		String ret = "";
 
-		ret = String.format("%-25s\t%17s\t%-7s\t%10s\t%.3f%%\t%d termijnen%n", this.getNaam(), this.getGemeente(), this.getPartij(), this.getGeboortedatum(), this.getProcentVoorkeursstemmen() * 100, this.getTermijnen());
+		ret = String.format("%-25s\t%17s\t%-7s\t%10s\t%.3f%%\t%d termijnen", this.getNaam(), this.getGemeente(), this.getPartij(), this.getGeboortedatum(), this.getProcentVoorkeursstemmen() * 100, this.getTermijnen());
 
 		return ret;
 	}

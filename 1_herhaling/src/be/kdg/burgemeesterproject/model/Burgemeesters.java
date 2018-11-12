@@ -37,7 +37,7 @@ public class Burgemeesters {
 		return this.elements.size();
 	}
 
-	public List<Burgemeester> gesorteerdopNaam() {
+	public List<Burgemeester> gesorteerdOpNaam() {
 		List<Burgemeester> ret = new ArrayList<>(this.elements);
 		Collections.sort(ret, new Comparator<Burgemeester>() {
 			@Override
