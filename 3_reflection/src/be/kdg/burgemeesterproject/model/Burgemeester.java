@@ -8,7 +8,7 @@ import java.util.Objects;
  * @author Kristof Buts
  * @version 1.0 11/12/18 3:29 PM
  */
-public class Burgemeester extends Persoon implements Comparable<Burgemeester> {
+public class Burgemeester extends Persoon implements Comparable<Persoon> {
 	/*
 	Burgemeester (naam: String, geboortedatum: LocalDate, gemeente: String,
 		procentVoorkeursstemmen: double, termijnen: int, partij: enum)
@@ -80,23 +80,31 @@ public class Burgemeester extends Persoon implements Comparable<Burgemeester> {
 	public boolean equals(Object o) {
 		if (this == o) return true;
 		if (o == null || getClass() != o.getClass()) return false;
+		if (!super.equals(o)) return false;
 		Burgemeester that = (Burgemeester) o;
-		return Objects.equals(getNaam(), that.getNaam()) &&
-				Objects.equals(getGemeente(), that.getGemeente());
+		return Objects.equals(getGemeente(), that.getGemeente());
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(getNaam(), getGemeente());
+		return Objects.hash(super.hashCode(), getGemeente());
 	}
 
 	@Override
-	public int compareTo(Burgemeester o) {
-		if (!this.getNaam().equals(o.getNaam())) {
-			return this.getNaam().compareTo(o.getNaam());
+	public int compareTo(Persoon o) {
+		int ret;
+		if (o instanceof Burgemeester) {
+			if (!this.getNaam().equals(o.getNaam())) {
+				ret =  this.getNaam().compareTo(o.getNaam());
+			} else {
+				Burgemeester toCompare = (Burgemeester) o;
+				ret = this.getGemeente().compareTo(toCompare.getGemeente());
+			}
 		} else {
-			return this.getGemeente().compareTo(o.getGemeente());
+			ret = super.compareTo(o);
 		}
+
+		return ret;
 	}
 
 	@Override
