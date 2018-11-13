@@ -1,5 +1,7 @@
 package be.kdg.burgemeesterproject.model;
 
+import be.kdg.burgemeesterproject.reflection.CanRun;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Objects;
@@ -36,6 +38,7 @@ public class Burgemeester extends Persoon implements Comparable<Persoon> {
 		return gemeente;
 	}
 
+	@CanRun("Antwerpen")
 	public void setGemeente(String gemeente) {
 		if ( !(gemeente == null) && !gemeente.isEmpty() && gemeente.length() >= 2) {
 			this.gemeente = gemeente;
@@ -48,6 +51,7 @@ public class Burgemeester extends Persoon implements Comparable<Persoon> {
 		return procentVoorkeursstemmen;
 	}
 
+	@CanRun
 	public void setProcentVoorkeursstemmen(double procentVoorkeursstemmen) {
 		if (procentVoorkeursstemmen >= 0.0 && procentVoorkeursstemmen <= 1.0) {
 			this.procentVoorkeursstemmen = procentVoorkeursstemmen;
@@ -60,6 +64,7 @@ public class Burgemeester extends Persoon implements Comparable<Persoon> {
 		return termijnen;
 	}
 
+	@CanRun
 	public void setTermijnen(int termijnen) {
 		if (termijnen >= 0) {
 			this.termijnen = termijnen;
@@ -72,6 +77,7 @@ public class Burgemeester extends Persoon implements Comparable<Persoon> {
 		return partij;
 	}
 
+	@CanRun
 	public void setPartij(Partij partij) {
 		this.partij = partij;
 	}

@@ -1,5 +1,7 @@
 package be.kdg.burgemeesterproject.model;
 
+import be.kdg.burgemeesterproject.reflection.CanRun;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Comparator;
@@ -17,6 +19,7 @@ public class Persoon implements Comparable<Persoon> {
 		return naam;
 	}
 
+	@CanRun("Jos Peeters")
 	public void setNaam(String naam) {
 		if ( !(naam == null) && !naam.isEmpty() && naam.length() >= 2) {
 			this.naam = naam;
@@ -29,6 +32,7 @@ public class Persoon implements Comparable<Persoon> {
 		return geboortedatum;
 	}
 
+	@CanRun
 	public void setGeboortedatum(LocalDate geboortedatum) {
 		if (Period.between(geboortedatum, LocalDate.now()).getYears() >= 18) {
 			this.geboortedatum = geboortedatum;

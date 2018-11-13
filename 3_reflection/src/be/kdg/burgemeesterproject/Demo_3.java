@@ -12,5 +12,8 @@ public class Demo_3 {
 		ReflectionTools.classAnalysis(Persoon.class);
 		ReflectionTools.classAnalysis(Burgemeester.class);
 		ReflectionTools.classAnalysis(Burgemeesters.class);
+
+		Object o = ReflectionTools.runAnnotated(Burgemeester.class);
+		System.out.println(o.toString());
 	}
 }

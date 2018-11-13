@@ -5,6 +5,7 @@ import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 
 /**
  * @author Kristof Buts
@@ -65,4 +66,28 @@ public class ReflectionTools {
 		System.out.println();
 	}
 
+	public static Object runAnnotated(Class c) {
+		try {
+//		a. Maak een nieuwe instantie aan van deze klasse; roep daartoe de default constructor aan.
+			Object o = c.newInstance();
+//		b. Overloop de methoden van deze klasse en selecteer enkel de methoden die geannotteerd zijn via @CanRun en die als parameter één String hebben.
+			for (Method m :	c.getMethods()) {
+
+				if (
+					m.getAnnotation(CanRun.class) != null
+					&& m.getParameters().length == 1
+					&& m.getParameters()[0].getType() == String.class
+				) {
+//				c. Voer deze methoden uit op het geïnstantieerde object met als parameter de value van de annotation.
+					m.invoke(o, m.getAnnotation(CanRun.class).value());
+				}
+			}
+//		d. Retourneer het gecreëerde object.
+			return o;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return null;
+	}
 }
