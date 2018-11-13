@@ -62,6 +62,7 @@ public class TestBurgemeesters {
 	}
 
 	@Test(expected = NullPointerException.class)
+//	@Test
 	public void testRemoveNotExisting() {
 		assertFalse("Dit object zou niet mogen bestaan", burgemeesters.verwijder("Jos Peeters", "Antwerpen"));
 	}
