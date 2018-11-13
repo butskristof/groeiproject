@@ -1,6 +1,6 @@
 package be.kdg.burgemeesterproject;
 
-import be.kdg.burgemeesterproject.model.Burgemeester;
+import be.kdg.burgemeesterproject.model.*;
 import be.kdg.burgemeesterproject.reflection.ReflectionTools;
 
 /**
@@ -9,6 +9,8 @@ import be.kdg.burgemeesterproject.reflection.ReflectionTools;
  */
 public class Demo_3 {
 	public static void main(String[] args) {
+		ReflectionTools.classAnalysis(Persoon.class);
 		ReflectionTools.classAnalysis(Burgemeester.class);
+		ReflectionTools.classAnalysis(Burgemeesters.class);
 	}
 }
