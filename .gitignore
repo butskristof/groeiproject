@@ -4,3 +4,4 @@
 .DS_Store
 out/*
 lib/*
+4_logging/log/*
