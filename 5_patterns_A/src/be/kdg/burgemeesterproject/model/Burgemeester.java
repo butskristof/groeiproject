@@ -21,11 +21,12 @@ public class Burgemeester implements Comparable<Burgemeester> {
 	private int termijnen;
 	private Partij partij;
 
-	public Burgemeester() {
+	// constructors are made package private
+	Burgemeester() {
 		this("Onbekend", LocalDate.of(0,1,1), "Onbekend", 0.0, 0, Partij.ONBEKEND);
 	}
 
-	public Burgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
+	Burgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
 		this.setNaam(naam);
 		this.setGeboortedatum(geboortedatum);
 		this.setGemeente(gemeente);
@@ -132,7 +133,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 		 */
 		String ret = "";
 
-		ret = String.format("%-25s\t%17s\t%-7s\t%10s\t%.3f%%\t%d termijnen", this.getNaam(), this.getGemeente(), this.getPartij(), this.getGeboortedatum(), this.getProcentVoorkeursstemmen() * 100, this.getTermijnen());
+		ret = String.format("%-25s\t%20s\t%-7s\t%10s\t%.3f%%\t%d termijnen", this.getNaam(), this.getGemeente(), this.getPartij(), this.getGeboortedatum(), this.getProcentVoorkeursstemmen() * 100, this.getTermijnen());
 
 		return ret;
 	}
