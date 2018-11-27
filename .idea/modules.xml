@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/5_patterns_A/5_patterns_A.iml" filepath="$PROJECT_DIR$/5_patterns_A/5_patterns_A.iml" />
       <module fileurl="file://$PROJECT_DIR$/6_patterns_B/6_patterns_B.iml" filepath="$PROJECT_DIR$/6_patterns_B/6_patterns_B.iml" />
       <module fileurl="file://$PROJECT_DIR$/7_streams/7_streams.iml" filepath="$PROJECT_DIR$/7_streams/7_streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_persistentie/8_persistentie.iml" filepath="$PROJECT_DIR$/8_persistentie/8_persistentie.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/groeiproject.iml" filepath="$PROJECT_DIR$/.idea/groeiproject.iml" />
     </modules>
   </component>
