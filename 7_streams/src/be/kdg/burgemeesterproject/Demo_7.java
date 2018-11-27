@@ -19,32 +19,36 @@ import java.util.stream.Collectors;
 public class Demo_7 {
 	public static void main(String[] args) {
 		Burgemeesters burgemeesters = new Burgemeesters();
-		for (Burgemeester b :
-				Data.getData()) {
-			burgemeesters.voegToe(b);
-		}
+//		for (Burgemeester b :
+//				Data.getData()) {
+//			burgemeesters.voegToe(b);
+//		}
+		Data.getData().forEach(burgemeesters::voegToe);
 
 		System.out.println("Burgemeesters sorteerd op naam: ");
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOp(Burgemeester::getNaam)) {
-			System.out.println(b);
-		}
+//		for (Burgemeester b :
+//				burgemeesters.gesorteerdOp(Burgemeester::getNaam)) {
+//			System.out.println(b);
+//		}
+		burgemeesters.gesorteerdOp(Burgemeester::getNaam).forEach(System.out::println);
 
 		System.out.println();
 
 		System.out.println("Burgemeesters sorteerd op geboortedatum: ");
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOp(Burgemeester::getGeboortedatum)) {
-			System.out.println(b);
-		}
+//		for (Burgemeester b :
+//				burgemeesters.gesorteerdOp(Burgemeester::getGeboortedatum)) {
+//			System.out.println(b);
+//		}
+		burgemeesters.gesorteerdOp(Burgemeester::getGeboortedatum).forEach(System.out::println);
 
 		System.out.println();
 
 		System.out.println("Burgemeesters sorteerd op termijnen: ");
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOp(Burgemeester::getTermijnen)) {
-			System.out.println(b);
-		}
+//		for (Burgemeester b :
+//				burgemeesters.gesorteerdOp(Burgemeester::getTermijnen)) {
+//			System.out.println(b);
+//		}
+		burgemeesters.gesorteerdOp(Burgemeester::getTermijnen).forEach(System.out::println);
 
 		System.out.println();
 
