@@ -3,8 +3,14 @@ package be.kdg.burgemeesterproject;
 import be.kdg.burgemeesterproject.data.Data;
 import be.kdg.burgemeesterproject.model.*;
 import be.kdg.burgemeesterproject.util.*;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 
+import javax.swing.text.html.Option;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 /**
  * @author Kristof Buts
@@ -73,5 +79,60 @@ public class Demo_7 {
 				Functies.countIf(burgemeesterList, b -> b.getTermijnen() > 2));
 		System.out.printf("Aantal burgemeester van CD&V: %d%n",
 				Functies.countIf(burgemeesterList, b -> b.getPartij().equals(Partij.CDENV)));
+
+		System.out.println();
+
+
+		// STREAMS
+		burgemeesterList = Data.getData();
+		System.out.printf("Aantal burgemeesters van Open VLD: %d%n",
+				burgemeesterList.stream().filter(b -> b.getPartij().equals(Partij.OPENVLD)).count());
+
+		System.out.println();
+
+		System.out.println("Burgemeesters gesorteerd op partij en geboortedatum: ");
+		burgemeesterList
+				.stream()
+				.sorted(Comparator.comparing(Burgemeester::getPartij).thenComparing(Burgemeester::getGeboortedatum))
+				.forEach(System.out::println);
+
+		System.out.println();
+
+		System.out.println("Alle gemeenten in hoofdletters, omgekeerd gesorteerd en zonder dubbels: ");
+		String v33 = burgemeesterList
+				.stream()
+				.map(b -> b.getGemeente().toUpperCase())
+				.sorted(Comparator.reverseOrder())
+				.distinct()
+				.collect(Collectors.joining(", "));
+		System.out.println(v33);
+
+		System.out.println();
+
+		Optional<Burgemeester> randB = burgemeesterList.stream().filter(b -> b.getProcentVoorkeursstemmen() > 0.35).findAny();
+		System.out.printf("Een willekeurige burgemeester met meer dan 35%% voorkeursstemmen: %n%s%n",
+				randB.isPresent() ? randB.get() : "NIET GEVONDEN");
+
+		System.out.println();
+
+		System.out.printf("Burgemeester met de meeste voorkeursstemmen: %n%s%n",
+				burgemeesterList.stream().max(Comparator.comparing(Burgemeester::getProcentVoorkeursstemmen)).get());
+
+		System.out.println();
+
+		System.out.printf("List met gesorteerde burgemeesternamen die beginnen met 'V': %n%s%n",
+				burgemeesterList.stream().filter(b -> b.getNaam().charAt(0) == 'V').map(Burgemeester::getNaam).sorted().collect(Collectors.toList()));
+
+		System.out.println();
+
+		Map<Boolean, List<Burgemeester>> map =
+			burgemeesterList
+			.stream()
+			.collect(Collectors.partitioningBy(b -> b.getAge() > 45));
+		System.out.println("Sublist met burgemeesters ouder dan 45 jaar: ");
+		map.get(true).forEach(System.out::println);
+		System.out.println();
+		System.out.println("Sublist met burgemeesters jonger dan 45 jaar: ");
+		map.get(false).forEach(System.out::println);
 	}
 }
