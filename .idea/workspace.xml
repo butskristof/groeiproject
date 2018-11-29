@@ -5,14 +5,7 @@
     <option name="CUSTOM_SCOPE_NAME" value="Module '2_generics'" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/8_persistentie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/8_persistentie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/db/burgemeesters.ser" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/db/burgemeesters.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/src/Demo_8_Serialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/Demo_8_Serialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/model/Burgemeester.java" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/model/Burgemeester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +56,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+            <state relative-caret-position="731">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#BurgemeestersDbDao#0;class#BurgemeestersDbDao#0" />
-                <element signature="method#close#0;class#BurgemeestersDbDao#0" />
                 <element signature="method#maakTabel#0;class#BurgemeestersDbDao#0" />
                 <element signature="method#voegToe#0;class#BurgemeestersDbDao#0" />
                 <element signature="method#update#0;class#BurgemeestersDbDao#0" />
                 <element signature="method#verwijder#0;class#BurgemeestersDbDao#0" />
                 <element signature="e#4831#4832#0" expanded="true" />
                 <element signature="e#4868#4869#0" expanded="true" />
-                <element signature="e#4997#4998#0" expanded="true" />
-                <element signature="e#5111#5112#0" expanded="true" />
+                <element signature="e#5127#5128#0" expanded="true" />
+                <element signature="e#5241#5242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/Demo_8_JDBC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+            <state relative-caret-position="634">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -255,7 +246,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543490279509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543490672808" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -409,7 +400,7 @@
       <workItem from="1543325373517" duration="2262000" />
       <workItem from="1543361432048" duration="619000" />
       <workItem from="1543432896412" duration="691000" />
-      <workItem from="1543484503906" duration="5111000" />
+      <workItem from="1543484503906" duration="5371000" />
     </task>
     <servers />
   </component>
@@ -446,13 +437,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37308000" />
+    <option name="totallyTimeSpent" value="37568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="34" width="1880" height="1046" extended-state="6" />
+    <frame x="40" y="34" width="1880" height="1046" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15866958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15866958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,7 +453,7 @@
       <window_info anchor="bottom" id="Database Console" weight="0.32921347" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46629214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7764045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39775282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -781,26 +772,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88b35cc9-4dd6-41fa-b182-43cd0215b099/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="185" column="30" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BurgemeestersDbDao#0;class#BurgemeestersDbDao#0" />
-            <element signature="method#close#0;class#BurgemeestersDbDao#0" />
-            <element signature="method#maakTabel#0;class#BurgemeestersDbDao#0" />
-            <element signature="method#voegToe#0;class#BurgemeestersDbDao#0" />
-            <element signature="method#update#0;class#BurgemeestersDbDao#0" />
-            <element signature="method#verwijder#0;class#BurgemeestersDbDao#0" />
-            <element signature="e#4831#4832#0" expanded="true" />
-            <element signature="e#4868#4869#0" expanded="true" />
-            <element signature="e#4997#4998#0" expanded="true" />
-            <element signature="e#5111#5112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://88b35cc9-4dd6-41fa-b182-43cd0215b099/database/PUBLIC/schema/PUBLIC/table/BURGEMEESTERTABLE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -810,10 +781,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/Demo_8_JDBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="634">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#maakTabel#0;class#BurgemeestersDbDao#0" />
+            <element signature="method#voegToe#0;class#BurgemeestersDbDao#0" />
+            <element signature="method#update#0;class#BurgemeestersDbDao#0" />
+            <element signature="method#verwijder#0;class#BurgemeestersDbDao#0" />
+            <element signature="e#4831#4832#0" expanded="true" />
+            <element signature="e#4868#4869#0" expanded="true" />
+            <element signature="e#5127#5128#0" expanded="true" />
+            <element signature="e#5241#5242#0" expanded="true" />
           </folding>
         </state>
       </provider>

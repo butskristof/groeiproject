@@ -10,7 +10,7 @@ import be.kdg.burgemeesterproject.persist.BurgemeestersDbDao;
  */
 public class Demo_8_JDBC {
 	public static void main(String[] args) {
-		BurgemeestersDbDao db = new BurgemeestersDbDao("8_persistentie/db/burgemeestersDb");
+		BurgemeestersDbDao db = BurgemeestersDbDao.getInstance("8_persistentie/db/burgemeestersDb");
 
 		try {
 			System.out.println("Starting tests");

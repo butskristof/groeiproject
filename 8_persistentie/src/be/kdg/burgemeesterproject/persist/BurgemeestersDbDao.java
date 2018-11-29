@@ -14,7 +14,10 @@ import java.util.List;
 public class BurgemeestersDbDao implements BurgemeestersDao {
 	private Connection connection;
 
-	public BurgemeestersDbDao(String databasePath) {
+	// Singleton pattern
+	private static BurgemeestersDbDao burgemeestersDbDao;
+
+	private BurgemeestersDbDao(String databasePath) {
 		try {
 			Class.forName("org.hsqldb.jdbcDriver");
 			System.out.println("Driver loaded");
@@ -27,6 +30,18 @@ public class BurgemeestersDbDao implements BurgemeestersDao {
 		} catch (SQLException e) {
 			System.err.println("Could not open connection to database.");
 		}
+	}
+
+	public static synchronized BurgemeestersDbDao getInstance(String databasePath) {
+		if (burgemeestersDbDao == null) {
+			burgemeestersDbDao = new BurgemeestersDbDao(databasePath);
+		}
+		return burgemeestersDbDao;
+	}
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		throw new CloneNotSupportedException();
 	}
 
 	public void close() {
