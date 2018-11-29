@@ -1,3 +1,5 @@
+package be.kdg.burgemeesterproject;
+
 import be.kdg.burgemeesterproject.data.Data;
 import be.kdg.burgemeesterproject.model.Burgemeesters;
 

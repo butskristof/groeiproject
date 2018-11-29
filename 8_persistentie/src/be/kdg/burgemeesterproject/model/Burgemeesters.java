@@ -7,13 +7,15 @@ import java.util.*;
  * @author Kristof Buts
  * @version 1.0 11/12/18 3:29 PM
  */
-public class Burgemeesters implements Serializable {
+public class Burgemeesters implements Serializable, be.kdg.burgemeesterproject.persist.BurgemeestersDao {
 	private TreeSet<Burgemeester> elements = new TreeSet<>();
 
+	@Override
 	public boolean voegToe(Burgemeester b) {
 		return this.elements.add(b);
 	}
 
+	@Override
 	public boolean verwijder(String naam, String gemeente) {
 		return this.elements.remove(this.zoek(naam, gemeente));
 	}
@@ -24,6 +26,7 @@ public class Burgemeesters implements Serializable {
 	 * @param gemeente Naam van de gemeente waar de burgemeester zit
 	 * @return Burgemeester object of null
 	 */
+	@Override
 	public Burgemeester zoek(String naam, String gemeente) {
 		for (Burgemeester b :
 				this.elements) {
@@ -38,6 +41,7 @@ public class Burgemeesters implements Serializable {
 		return this.elements.size();
 	}
 
+	@Override
 	public List<Burgemeester> gesorteerdOpNaam() {
 		List<Burgemeester> ret = new ArrayList<>(this.elements);
 		Collections.sort(ret, new Comparator<Burgemeester>() {
@@ -49,6 +53,7 @@ public class Burgemeesters implements Serializable {
 		return ret;
 	}
 
+	@Override
 	public List<Burgemeester> gesorteerdOpGeboortedatum() {
 		List<Burgemeester> ret = new ArrayList<>(this.elements);
 		Collections.sort(ret, new Comparator<Burgemeester>() {
@@ -60,6 +65,7 @@ public class Burgemeesters implements Serializable {
 		return ret;
 	}
 
+	@Override
 	public List<Burgemeester> gesorteerdOpTermijnen() {
 		List<Burgemeester> ret = new ArrayList<>(this.elements);
 		Collections.sort(ret, new Comparator<Burgemeester>() {

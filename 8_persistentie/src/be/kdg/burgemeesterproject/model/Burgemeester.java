@@ -15,6 +15,8 @@ public class Burgemeester implements Comparable<Burgemeester>, Serializable {
 		procentVoorkeursstemmen: double, termijnen: int, partij: enum)
 	 */
 
+	private int id; // primary key
+
 	private String naam;
 	private LocalDate geboortedatum;
 	private String gemeente;
@@ -27,12 +29,24 @@ public class Burgemeester implements Comparable<Burgemeester>, Serializable {
 	}
 
 	public Burgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
+		this(-1, naam, geboortedatum, gemeente, procentVoorkeursstemmen, termijnen, partij);
+	}
+
+	public Burgemeester(int id, String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
 		this.setNaam(naam);
 		this.setGeboortedatum(geboortedatum);
 		this.setGemeente(gemeente);
 		this.setProcentVoorkeursstemmen(procentVoorkeursstemmen);
 		this.setTermijnen(termijnen);
 		this.setPartij(partij);
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getNaam() {
