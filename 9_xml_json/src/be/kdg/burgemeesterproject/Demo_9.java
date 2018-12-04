@@ -4,6 +4,7 @@ import be.kdg.burgemeesterproject.data.Data;
 import be.kdg.burgemeesterproject.model.Burgemeester;
 import be.kdg.burgemeesterproject.model.Burgemeesters;
 import be.kdg.burgemeesterproject.parsing.BurgemeestersDomParser;
+import be.kdg.burgemeesterproject.parsing.BurgemeestersGsonParser;
 import be.kdg.burgemeesterproject.parsing.BurgemeestersJaxbParser;
 import be.kdg.burgemeesterproject.parsing.BurgemeestersStaxParser;
 
@@ -14,11 +15,17 @@ import be.kdg.burgemeesterproject.parsing.BurgemeestersStaxParser;
 public class Demo_9 {
 
 	private static final String filepathPrefix = "9_xml_json/files/";
+	private static Burgemeesters burgemeesters;
 
 	public static void main(String[] args) {
-		Burgemeesters burgemeesters = new Burgemeesters();
+		burgemeesters = new Burgemeesters();
 		Data.getData().forEach(burgemeesters::voegToe);
 
+//		part1();
+		part2();
+	}
+
+	private static void part1() {
 		BurgemeestersStaxParser parser = new BurgemeestersStaxParser(burgemeesters, filepathPrefix + "burgemeesters.xml");
 		parser.writeXML();
 
@@ -33,5 +40,12 @@ public class Demo_9 {
 
 		System.out.println("Na wegschrijven en inlezen via JAXB: ");
 		readWithJAXB.gesorteerdOpNaam().forEach(System.out::println);
+	}
+
+	private static void part2() {
+		BurgemeestersGsonParser.writeJson(burgemeesters, filepathPrefix + "burgemeestersJSON.json");
+		Burgemeesters readWithJson = BurgemeestersGsonParser.readJson(filepathPrefix + "burgemeestersJSON.json");
+
+		readWithJson.gesorteerdOpNaam().forEach(System.out::println);
 	}
 }

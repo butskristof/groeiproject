@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_persistentie/db/burgemeestersDb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/db/burgemeestersDb.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" beforeDir="false" afterPath="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,81 +59,45 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="263">
-                  <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1002#1003#0" expanded="true" />
-                    <element signature="e#1024#1025#0" expanded="true" />
-                    <element signature="e#1086#1087#0" expanded="true" />
-                    <element signature="e#1117#1118#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="433">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="31" selection-start-line="31" selection-end-line="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeesters.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="549">
-                  <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJAXB.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1100" />
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersGsonParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#part1#0;class#Demo_9#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Persoon.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java" />
@@ -198,18 +161,18 @@
         <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersDomParser.java" />
         <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/DateAdapter.java" />
         <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/LocalDateAdapter.java" />
-        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" />
         <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java" />
-        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java" />
         <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersGsonParser.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="34" />
-    <option name="width" value="1399" />
-    <option name="height" value="877" />
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -219,8 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,6 +242,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +254,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543950669768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543952928529" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -401,8 +364,8 @@
       <item itemvalue="Application.Demo_7" />
       <item itemvalue="Application.Demo_8_Serialize" />
       <item itemvalue="Application.Demo_8_JDBC" />
-      <item itemvalue="JUnit.UnmodifiableBurgemeestersTest" />
       <item itemvalue="Application.Demo_9" />
+      <item itemvalue="JUnit.UnmodifiableBurgemeestersTest" />
     </list>
     <recent_temporary>
       <list>
@@ -446,6 +409,7 @@
       <workItem from="1543432896412" duration="691000" />
       <workItem from="1543484503906" duration="5606000" />
       <workItem from="1543945380053" duration="4918000" />
+      <workItem from="1543952216957" duration="724000" />
     </task>
     <servers />
   </component>
@@ -482,13 +446,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42721000" />
+    <option name="totallyTimeSpent" value="43445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="34" width="1880" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16030534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16194111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -526,20 +490,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/BurgemeestersInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/Partij.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -849,36 +799,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJAXB.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="1275">
           <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="493">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJAXB.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeesters.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJSON.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersGsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,18 +851,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="561">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#part1#0;class#Demo_9#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeesters.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
         </state>
       </provider>
     </entry>

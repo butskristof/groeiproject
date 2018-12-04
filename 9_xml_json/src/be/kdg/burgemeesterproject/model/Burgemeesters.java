@@ -1,5 +1,7 @@
 package be.kdg.burgemeesterproject.model;
 
+import com.google.gson.annotations.SerializedName;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.*;
@@ -10,6 +12,7 @@ import java.util.*;
  */
 @XmlRootElement(name = "burgemeesters")
 public class Burgemeesters {
+	@SerializedName("burgemeesters")
 	private ArrayList<Burgemeester> elements = new ArrayList<>();
 
 	public boolean voegToe(Burgemeester b) {
