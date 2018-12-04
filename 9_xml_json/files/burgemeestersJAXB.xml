@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<burgemeesters>
+    <burgemeester partij="CDENV">
+        <naam>Van den Sande Joppe</naam>
+        <geboortedatum>1997-06-20</geboortedatum>
+        <gemeente>Heist-op-den-Berg</gemeente>
+        <procent-voorkeursstemmen>0.295</procent-voorkeursstemmen>
+        <termijnen>0</termijnen>
+    </burgemeester>
+    <burgemeester partij="SPA">
+        <naam>Louis Tobback</naam>
+        <geboortedatum>1938-05-03</geboortedatum>
+        <gemeente>Leuven</gemeente>
+        <procent-voorkeursstemmen>0.314</procent-voorkeursstemmen>
+        <termijnen>4</termijnen>
+    </burgemeester>
+    <burgemeester partij="NVA">
+        <naam>De Wever Bart</naam>
+        <geboortedatum>1970-12-21</geboortedatum>
+        <gemeente>Antwerpen</gemeente>
+        <procent-voorkeursstemmen>0.377</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="SPA">
+        <naam>Peeters Jan</naam>
+        <geboortedatum>1963-01-12</geboortedatum>
+        <gemeente>Herentals</gemeente>
+        <procent-voorkeursstemmen>0.253</procent-voorkeursstemmen>
+        <termijnen>3</termijnen>
+    </burgemeester>
+    <burgemeester partij="LOKAAL">
+        <naam>Claes Hilde</naam>
+        <geboortedatum>1967-10-27</geboortedatum>
+        <gemeente>Hasselt</gemeente>
+        <procent-voorkeursstemmen>0.33</procent-voorkeursstemmen>
+        <termijnen>2</termijnen>
+    </burgemeester>
+    <burgemeester partij="LOKAAL">
+        <naam>Heremans Patrick</naam>
+        <geboortedatum>1964-07-26</geboortedatum>
+        <gemeente>Herenthout</gemeente>
+        <procent-voorkeursstemmen>0.332</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="OPENVLD">
+        <naam>Somers Bart</naam>
+        <geboortedatum>1964-05-12</geboortedatum>
+        <gemeente>Mechelen</gemeente>
+        <procent-voorkeursstemmen>0.339</procent-voorkeursstemmen>
+        <termijnen>3</termijnen>
+    </burgemeester>
+    <burgemeester partij="NVA">
+        <naam>Celis Vera</naam>
+        <geboortedatum>1959-08-06</geboortedatum>
+        <gemeente>Geel</gemeente>
+        <procent-voorkeursstemmen>0.366</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="CDENV">
+        <naam>Rombouts Tinne</naam>
+        <geboortedatum>1979-09-29</geboortedatum>
+        <gemeente>Hoogstraten</gemeente>
+        <procent-voorkeursstemmen>0.321</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="GROEN">
+        <naam>Van de Vyver Andre</naam>
+        <geboortedatum>1949-08-01</geboortedatum>
+        <gemeente>Zwijndrecht</gemeente>
+        <procent-voorkeursstemmen>0.314</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="CDENV">
+        <naam>De Wispelaere Chris</naam>
+        <geboortedatum>1947-07-15</geboortedatum>
+        <gemeente>Lovendegem</gemeente>
+        <procent-voorkeursstemmen>0.386</procent-voorkeursstemmen>
+        <termijnen>4</termijnen>
+    </burgemeester>
+    <burgemeester partij="OPENVLD">
+        <naam>Van Quickenborne Vincent</naam>
+        <geboortedatum>1973-08-01</geboortedatum>
+        <gemeente>Kortrijk</gemeente>
+        <procent-voorkeursstemmen>0.33</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="CDENV">
+        <naam>Gielis Tine</naam>
+        <geboortedatum>1967-08-16</geboortedatum>
+        <gemeente>Laakdal</gemeente>
+        <procent-voorkeursstemmen>0.35</procent-voorkeursstemmen>
+        <termijnen>2</termijnen>
+    </burgemeester>
+    <burgemeester partij="NVA">
+        <naam>Boogaerts Frank</naam>
+        <geboortedatum>1944-11-16</geboortedatum>
+        <gemeente>Lier</gemeente>
+        <procent-voorkeursstemmen>0.32</procent-voorkeursstemmen>
+        <termijnen>1</termijnen>
+    </burgemeester>
+    <burgemeester partij="CDENV">
+        <naam>Horemans Walter</naam>
+        <geboortedatum>1961-03-15</geboortedatum>
+        <gemeente>Berlaar</gemeente>
+        <procent-voorkeursstemmen>0.489</procent-voorkeursstemmen>
+        <termijnen>2</termijnen>
+    </burgemeester>
+</burgemeesters>

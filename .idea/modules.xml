@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/6_patterns_B/6_patterns_B.iml" filepath="$PROJECT_DIR$/6_patterns_B/6_patterns_B.iml" />
       <module fileurl="file://$PROJECT_DIR$/7_streams/7_streams.iml" filepath="$PROJECT_DIR$/7_streams/7_streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/8_persistentie/8_persistentie.iml" filepath="$PROJECT_DIR$/8_persistentie/8_persistentie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_xml_json/9_xml_json.iml" filepath="$PROJECT_DIR$/9_xml_json/9_xml_json.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/groeiproject.iml" filepath="$PROJECT_DIR$/.idea/groeiproject.iml" />
     </modules>
   </component>

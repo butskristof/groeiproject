@@ -5,7 +5,11 @@
     <option name="CUSTOM_SCOPE_NAME" value="Module '2_generics'" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="" />
+    <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_persistentie/db/burgemeestersDb.properties" beforeDir="false" afterPath="$PROJECT_DIR$/8_persistentie/db/burgemeestersDb.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,48 +59,81 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#maakTabel#0;class#BurgemeestersDbDao#0" />
-                <element signature="method#voegToe#0;class#BurgemeestersDbDao#0" />
-                <element signature="method#update#0;class#BurgemeestersDbDao#0" />
-                <element signature="method#verwijder#0;class#BurgemeestersDbDao#0" />
-                <element signature="e#5420#5421#0" expanded="true" />
-                <element signature="e#5542#5543#0" expanded="true" />
-                <element signature="e#5656#5657#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/Demo_8_JDBC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://88b35cc9-4dd6-41fa-b182-43cd0215b099/database/PUBLIC/schema/PUBLIC/table/BURGEMEESTERTABLE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="263">
+                  <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1002#1003#0" expanded="true" />
+                    <element signature="e#1024#1025#0" expanded="true" />
+                    <element signature="e#1086#1087#0" expanded="true" />
+                    <element signature="e#1117#1118#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="433">
+                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeesters.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="549">
+                  <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJAXB.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1100" />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,14 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/FIFOQueue.java" />
-        <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/FIFOQueue.java" />
-        <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java" />
-        <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/Demo_2.java" />
-        <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
-        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" />
-        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/ReflectionTools.java" />
-        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/CanRun.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Persoon.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
         <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java" />
@@ -165,6 +194,14 @@
         <option value="$PROJECT_DIR$/8_persistentie/src/Demo_8_Serialize.java" />
         <option value="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java" />
         <option value="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/Demo_8_JDBC.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersStaxParser.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersDomParser.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/DateAdapter.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/LocalDateAdapter.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java" />
+        <option value="$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
       </list>
     </option>
   </component>
@@ -182,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,31 +231,31 @@
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
@@ -225,16 +263,24 @@
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="8_persistentie" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
-              <item name="persist" type="462c0819:PsiDirectoryNode" />
+              <item name="parsing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
+              <item name="9_xml_json" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,16 +291,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543490681304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543950669768" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject" />
-    <property name="last_opened_file_path" value="$USER_HOME$/java/Voorbeelden_08_Persistentie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -290,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo_8_JDBC">
+  <component name="RunManager" selected="Application.Demo_9">
     <configuration name="Demo_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_7" />
       <module name="7_streams" />
@@ -324,16 +370,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUnmodifiableBurgemeesters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="6_patterns_B" />
+    <configuration name="Demo_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_9" />
+      <module name="9_xml_json" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="be.kdg.burgemeesterproject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="be.kdg.burgemeesterproject" />
-      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.TestUnmodifiableBurgemeesters" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,17 +400,17 @@
     <list>
       <item itemvalue="Application.Demo_7" />
       <item itemvalue="Application.Demo_8_Serialize" />
-      <item itemvalue="JUnit.TestUnmodifiableBurgemeesters" />
-      <item itemvalue="JUnit.UnmodifiableBurgemeestersTest" />
       <item itemvalue="Application.Demo_8_JDBC" />
+      <item itemvalue="JUnit.UnmodifiableBurgemeestersTest" />
+      <item itemvalue="Application.Demo_9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo_9" />
         <item itemvalue="Application.Demo_8_JDBC" />
         <item itemvalue="Application.Demo_8_Serialize" />
         <item itemvalue="Application.Demo_7" />
         <item itemvalue="JUnit.UnmodifiableBurgemeestersTest" />
-        <item itemvalue="JUnit.TestUnmodifiableBurgemeesters" />
       </list>
     </recent_temporary>
   </component>
@@ -400,6 +445,7 @@
       <workItem from="1543361432048" duration="619000" />
       <workItem from="1543432896412" duration="691000" />
       <workItem from="1543484503906" duration="5606000" />
+      <workItem from="1543945380053" duration="4918000" />
     </task>
     <servers />
   </component>
@@ -436,23 +482,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37803000" />
+    <option name="totallyTimeSpent" value="42721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="34" width="1880" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15866958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16030534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32921347" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7764045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35955057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39775282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,12 +508,13 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3280899" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32921347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.32988003" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32988003" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -480,53 +526,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Persoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/CanRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_logging/logging.properties" />
-    <entry file="file://$PROJECT_DIR$/4_logging/log/burgemeesters0.log" />
-    <entry file="file://$PROJECT_DIR$/4_logging/log/burgemeesters1.log" />
-    <entry file="file://$PROJECT_DIR$/4_logging/log/burgemeesters2.log" />
-    <entry file="file://$PROJECT_DIR$/4_logging/log/burgemeesters3.log" />
-    <entry file="file://$PROJECT_DIR$/4_logging/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_logging/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/BurgemeestersInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -726,9 +725,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeesterDbDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeesterDbDao.java" />
     <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -771,16 +768,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/88b35cc9-4dd6-41fa-b182-43cd0215b099/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://88b35cc9-4dd6-41fa-b182-43cd0215b099/database/PUBLIC/schema/PUBLIC/table/BURGEMEESTERTABLE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8_persistentie/src/be/kdg/burgemeesterproject/persist/BurgemeestersDbDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="646">
           <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -788,10 +778,20 @@
             <element signature="method#voegToe#0;class#BurgemeestersDbDao#0" />
             <element signature="method#update#0;class#BurgemeestersDbDao#0" />
             <element signature="method#verwijder#0;class#BurgemeestersDbDao#0" />
+            <element signature="e#5376#5377#0" expanded="true" />
             <element signature="e#5420#5421#0" expanded="true" />
+            <element signature="e#5489#5490#0" expanded="true" />
             <element signature="e#5542#5543#0" expanded="true" />
+            <element signature="e#5607#5608#0" expanded="true" />
             <element signature="e#5656#5657#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://88b35cc9-4dd6-41fa-b182-43cd0215b099/database/PUBLIC/schema/PUBLIC/table/BURGEMEESTERTABLE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -802,6 +802,103 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/jdk1.8.0_192/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersStaxParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="67" column="81" selection-start-line="67" selection-start-column="81" selection-end-line="67" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersDomParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/DateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/Utilities/LocalDateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeestersJAXB.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/parsing/BurgemeestersJaxbParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/Demo_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_xml_json/files/burgemeesters.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -870,7 +967,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hsqldb</last-edited>
+          <last-edited>gson-2.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
