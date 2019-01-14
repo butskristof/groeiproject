@@ -18,27 +18,28 @@ public class Burgemeester implements Comparable<Burgemeester> {
 	 */
 
 	/**
-	 * Naam van de burgemeester
+	 * Naam van de burgemeester (minstens twee karakters)
 	 */
 	private String naam;
 	/**
-	 * Geboortedatum als LocalDate, moet minstens 18 jaar oud zijn
+	 * Geboortedatum als LocalDate (minstens 18 jaar oud)
 	 */
 	private LocalDate geboortedatum;
 	/**
-	 * Gemeente waar de burgemeester bestuurt
+	 * Gemeente waar de burgemeester bestuurt (minstens twee karakters)
 	 */
 	private String gemeente;
 	/**
-	 * Percentage voorkeursstemmen dat de burgemeester bij de laatste stemming behaalde, waarde tussen 0.0 en 1.0
+	 * Percentage voorkeursstemmen dat de burgemeester bij de laatste stemming behaalde (waarde tussen 0.0 en 1.0)
 	 */
 	private double procentVoorkeursstemmen;
 	/**
-	 * Aantal termijnen dat de burgemeester reeds bestuurd heeft
+	 * Aantal termijnen dat de burgemeester reeds bestuurd heeft (positief geheel getal)
 	 */
 	private int termijnen;
 	/**
 	 * Partij waar de burgemeester toe behoort
+	 *
 	 * @see Partij
 	 */
 	private Partij partij;
@@ -138,6 +139,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 
 	/**
 	 * Methode die bepaalt of twee objecten identiek zijn op basis van de naam en de gemeente
+	 *
 	 * @param o object om mee te vergelijken
 	 * @return Aanduiding of de objecten identiek zijn
 	 */
@@ -152,6 +154,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 
 	/**
 	 * Genereert een hashcode die het object voorstelt, gegenereerd op basis van naam en gemeente
+	 *
 	 * @return Hashcode van het object
 	 */
 	@Override
@@ -161,6 +164,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 
 	/**
 	 * Methode die twee objecten vergelijkt om te sorteren, op naam en gemeente
+	 *
 	 * @param o Object om mee te vergelijken
 	 * @return Integerwaarde die het verschil tussen beide objecten voorstelt
 	 */
@@ -175,6 +179,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 
 	/**
 	 * Methode die een stringrepresentatie van het Burgemeester object genereert
+	 *
 	 * @return Stringrepresentatie van het object
 	 */
 	@Override

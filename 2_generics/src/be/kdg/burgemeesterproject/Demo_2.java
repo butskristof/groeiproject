@@ -21,13 +21,16 @@ public class Demo_2 {
 		System.out.println(myQueue.toString());
 		System.out.println("aantal: " + myQueue.getSize());
 		System.out.println("positie van gamma: " + myQueue.search("gamma"));
-		for(int i = 0; i < 4; i++) {
+		for (int i = 0; i < 4; i++) {
 			System.out.println("Dequeue: " + myQueue.dequeue());
 		}
 		System.out.println("Size na dequeue: " + myQueue.getSize());
 
+		System.out.println();
+
 		PriorityQueue<Burgemeester> burgemeesters = new PriorityQueue<>();
 		Random rnd = new Random();
+
 		for (Burgemeester b: Data.getData()) {
 			burgemeesters.enqueue(b, rnd.nextInt(5) + 1);
 		}
