@@ -19,7 +19,7 @@ public class Data {
 
 //	public Burgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
 		ret.add(new Burgemeester("Van den Sande Joppe", LocalDate.of(1997, 6, 20), "Heist-op-den-Berg", 0.295, 0, Partij.CDENV));
-		ret.add(new Burgemeester("Louis Tobback", LocalDate.of(1938, 5, 3), "Leuven", 0.314, 4, Partij.SPA));
+		ret.add(new Burgemeester("Tobback Louis", LocalDate.of(1938, 5, 3), "Leuven", 0.314, 4, Partij.SPA));
 		ret.add(new Burgemeester("De Wever Bart", LocalDate.of(1970, 12, 21), "Antwerpen", 0.377, 1, Partij.NVA));
 		ret.add(new Burgemeester("Peeters Jan", LocalDate.of(1963,1,12), "Herentals", 0.253, 3, Partij.SPA));
 		ret.add(new Burgemeester("Claes Hilde", LocalDate.of(1967,10,27), "Hasselt", 0.33, 2, Partij.LOKAAL));

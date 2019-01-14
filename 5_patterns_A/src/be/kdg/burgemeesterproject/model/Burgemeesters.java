@@ -16,6 +16,9 @@ public class Burgemeesters implements BurgemeestersInterface {
 
 	@Override
 	public boolean verwijder(String naam, String gemeente) {
+		if (this.zoek(naam, gemeente) == null) {
+			return false;
+		}
 		return this.elements.remove(this.zoek(naam, gemeente));
 	}
 

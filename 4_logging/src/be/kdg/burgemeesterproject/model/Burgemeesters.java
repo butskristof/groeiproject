@@ -28,7 +28,12 @@ public class Burgemeesters {
 	}
 
 	public boolean verwijder(String naam, String gemeente) {
+		// TODO review
 		Burgemeester search = this.zoek(naam, gemeente);
+		if (search == null) {
+			return false;
+		}
+
 		if (this.elements.remove(search)) {
 			logger.log(Level.FINER, "Verwijderd: {0}", search.getNaam());
 			return true;
