@@ -7,13 +7,17 @@ import java.util.*;
  * @version 1.0 11/12/18 3:29 PM
  */
 public class Burgemeesters {
-	private TreeSet<Burgemeester> elements = new TreeSet<>();
+	// declare with generic Collection, define with concrete type
+	private Set<Burgemeester> elements = new TreeSet<>();
 
 	public boolean voegToe(Burgemeester b) {
 		return this.elements.add(b);
 	}
 
 	public boolean verwijder(String naam, String gemeente) {
+		if (this.zoek(naam, gemeente) == null) {
+			return false;
+		}
 		return this.elements.remove(this.zoek(naam, gemeente));
 	}
 
@@ -24,8 +28,7 @@ public class Burgemeesters {
 	 * @return Burgemeester object of null
 	 */
 	public Burgemeester zoek(String naam, String gemeente) {
-		for (Burgemeester b :
-				this.elements) {
+		for (Burgemeester b : this.elements) {
 			if (b.getNaam().equals(naam) && b.getGemeente().equals(gemeente)) {
 				return b;
 			}

@@ -4,3 +4,4 @@ out/*
 lib/*
 4_logging/log/*
 .attach_pid*
+.idea/*

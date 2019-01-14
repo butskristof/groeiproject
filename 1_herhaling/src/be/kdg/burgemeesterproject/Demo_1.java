@@ -23,8 +23,7 @@ public class Demo_1 {
 
 //		b. Voeg alle objecten van deze list toe aan de multiklasse (zie 3.2)
 		Burgemeesters burgemeesters = new Burgemeesters();
-		for (Burgemeester b :
-				rawData) {
+		for (Burgemeester b : rawData) {
 			burgemeesters.voegToe(b);
 		}
 
@@ -33,23 +32,28 @@ public class Demo_1 {
 
 //		d. Test de methoden zoek, verwijder en getAantal uit (zie 3.3)
 		// test ok
-		Burgemeester testSearch = burgemeesters.zoek("Louis Tobback", "Leuven");
+		Burgemeester testSearch = burgemeesters.zoek("Tobback Louis", "Leuven");
 		// test nok
 		testSearch = burgemeesters.zoek("De Witte", "Zichem");
+		boolean isDeleted = burgemeesters.verwijder("Tobback Louis", "Leuven");
+		isDeleted = burgemeesters.verwijder("De Witte", "Zichem");
+
+		burgemeesters.voegToe(rawData.get(1));
 
 //		e. Druk de 3 gesorteerde listen af (zie 3.3)
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOpNaam()) {
+		for (Burgemeester b : burgemeesters.gesorteerdOpNaam()) {
 			System.out.println(b.toString());
 		}
+
 		System.out.println();
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOpGeboortedatum()) {
+
+		for (Burgemeester b : burgemeesters.gesorteerdOpGeboortedatum()) {
 			System.out.println(b.toString());
 		}
+
 		System.out.println();
-		for (Burgemeester b :
-				burgemeesters.gesorteerdOpTermijnen()) {
+
+		for (Burgemeester b : burgemeesters.gesorteerdOpTermijnen()) {
 			System.out.println(b.toString());
 		}
 		System.out.println();
@@ -60,14 +64,14 @@ public class Demo_1 {
 
 		// exceptions
 		// voorkeursstemmen
-//		testCtor = new Burgemeester("Jos Peeters", LocalDate.of(1980,1,1), "Zaffelare", 23.5, 0, Partij.LOKAAL);
+//		testCtor = new Burgemeester("Peeters Jos", LocalDate.of(1980,1,1), "Zaffelare", 23.5, 0, Partij.LOKAAL);
 		// naam
 //		testCtor = new Burgemeester("J", LocalDate.of(1980,1,1), "Zaffelare", 0.235, 0, Partij.LOKAAL);
 		// geboortedatum
-//		testCtor = new Burgemeester("Jos Peeters", LocalDate.of(2005,1,1), "Zaffelare", 0.235, 0, Partij.LOKAAL);
+//		testCtor = new Burgemeester("Peeters Jos", LocalDate.of(2005,1,1), "Zaffelare", 0.235, 0, Partij.LOKAAL);
 		// gemeente
-//		testCtor = new Burgemeester("Jos Peeters", LocalDate.of(1980,1,1), "Z", 0.235, 0, Partij.LOKAAL);
+//		testCtor = new Burgemeester("Peeters Jos", LocalDate.of(1980,1,1), "Z", 0.235, 0, Partij.LOKAAL);
 		// termijnen
-//		testCtor = new Burgemeester("Jos Peeters", LocalDate.of(1980,1,1), "Zaffelare", 0.235, -2, Partij.LOKAAL);
+//		testCtor = new Burgemeester("Peeters Jos", LocalDate.of(1980,1,1), "Zaffelare", 0.235, -2, Partij.LOKAAL);
 	}
 }

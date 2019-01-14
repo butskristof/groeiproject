@@ -102,6 +102,7 @@ public class Burgemeester implements Comparable<Burgemeester> {
 		this.partij = partij;
 	}
 
+	// name and city define uniqueness
 	@Override
 	public boolean equals(Object o) {
 		if (this == o) return true;
