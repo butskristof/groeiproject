@@ -8,98 +8,54 @@ import java.util.Objects;
  * @author Kristof Buts
  * @version 1.0 11/12/18 3:29 PM
  */
-public class Burgemeester implements Comparable<Burgemeester> {
+public final class Burgemeester implements Comparable<Burgemeester> {
 	/*
 	Burgemeester (naam: String, geboortedatum: LocalDate, gemeente: String,
 		procentVoorkeursstemmen: double, termijnen: int, partij: enum)
 	 */
 
-	private String naam;
-	private LocalDate geboortedatum;
-	private String gemeente;
-	private double procentVoorkeursstemmen;
-	private int termijnen;
-	private Partij partij;
+	private final String naam;
+	private final LocalDate geboortedatum;
+	private final String gemeente;
+	private final double procentVoorkeursstemmen;
+	private final int termijnen;
+	private final Partij partij;
 
 	public Burgemeester() {
 		this("Onbekend", LocalDate.of(0,1,1), "Onbekend", 0.0, 0, Partij.ONBEKEND);
 	}
 
 	public Burgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
-		this.setNaam(naam);
-		this.setGeboortedatum(geboortedatum);
-		this.setGemeente(gemeente);
-		this.setProcentVoorkeursstemmen(procentVoorkeursstemmen);
-		this.setTermijnen(termijnen);
-		this.setPartij(partij);
+		this.naam = naam;
+		this.geboortedatum = geboortedatum;
+		this.gemeente = gemeente;
+		this.procentVoorkeursstemmen = procentVoorkeursstemmen;
+		this.termijnen = termijnen;
+		this.partij = partij;
 	}
 
 	public String getNaam() {
 		return naam;
 	}
 
-	public void setNaam(String naam) {
-		if ( !(naam == null) && !naam.isEmpty() && naam.length() >= 2) {
-			this.naam = naam;
-		} else {
-			throw new IllegalArgumentException("Naam moet minstens twee tekens bevatten.");
-		}
-	}
-
 	public LocalDate getGeboortedatum() {
 		return geboortedatum;
-	}
-
-	public void setGeboortedatum(LocalDate geboortedatum) {
-		if (Period.between(geboortedatum, LocalDate.now()).getYears() >= 18) {
-			this.geboortedatum = geboortedatum;
-		} else {
-			throw new IllegalArgumentException("Burgemeester moet minstens 18 jaar zijn.");
-		}
 	}
 
 	public String getGemeente() {
 		return gemeente;
 	}
 
-	public void setGemeente(String gemeente) {
-		if ( !(gemeente == null) && !gemeente.isEmpty() && gemeente.length() >= 2) {
-			this.gemeente = gemeente;
-		} else {
-			throw new IllegalArgumentException("Gemeente moet minstens twee tekens bevatten.");
-		}
-	}
-
 	public double getProcentVoorkeursstemmen() {
 		return procentVoorkeursstemmen;
-	}
-
-	public void setProcentVoorkeursstemmen(double procentVoorkeursstemmen) {
-		if (procentVoorkeursstemmen >= 0.0 && procentVoorkeursstemmen <= 1.0) {
-			this.procentVoorkeursstemmen = procentVoorkeursstemmen;
-		} else {
-			throw new IllegalArgumentException("Percentage voorkeursstemmen niet geldig.");
-		}
 	}
 
 	public int getTermijnen() {
 		return termijnen;
 	}
 
-	public void setTermijnen(int termijnen) {
-		if (termijnen >= 0) {
-			this.termijnen = termijnen;
-		} else {
-			throw new IllegalArgumentException("Aantal termijnen moet positief zijn.");
-		}
-	}
-
 	public Partij getPartij() {
 		return partij;
-	}
-
-	public void setPartij(Partij partij) {
-		this.partij = partij;
 	}
 
 	// name and city define uniqueness

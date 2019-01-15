@@ -43,12 +43,13 @@ public class Demo_10 {
 				for (int j = 0; j < nrOfCores; ++j) {
 					BurgemeesterRunnable r = new BurgemeesterRunnable(predicates.get(j));
 					runnables.add(r);
-					threads.add(new Thread(r));
+					Thread t = new Thread(r);
+					threads.add(t);
+					t.start();
 				}
 
 				long start = System.currentTimeMillis();
 				for (Thread t: threads) {
-					t.start();
 					t.join();
 				}
 				long end = System.currentTimeMillis();
