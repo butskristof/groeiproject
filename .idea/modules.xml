@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_threads/10_threads.iml" filepath="$PROJECT_DIR$/10_threads/10_threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_herhaling/1_herhaling.iml" filepath="$PROJECT_DIR$/1_herhaling/1_herhaling.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_generics/2_generics.iml" filepath="$PROJECT_DIR$/2_generics/2_generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_reflection/3_reflection.iml" filepath="$PROJECT_DIR$/3_reflection/3_reflection.iml" />
