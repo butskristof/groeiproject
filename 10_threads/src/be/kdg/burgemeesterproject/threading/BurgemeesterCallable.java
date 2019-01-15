@@ -5,35 +5,30 @@ import be.kdg.burgemeesterproject.model.BurgemeesterFactory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**
  * @author Kristof Buts
  */
-public class BurgemeesterRunnable implements Runnable {
+public class BurgemeesterCallable implements Callable<List<Burgemeester>> {
 	private static final int TO_GENERATE = 1000;
 	private Predicate<Burgemeester> filter;
-	private List<Burgemeester> generated;
 
-	private static int counter;
-
-	public BurgemeesterRunnable(Predicate<Burgemeester> filter) {
+	public BurgemeesterCallable(Predicate<Burgemeester> filter) {
 		this.filter = filter;
 	}
 
 	@Override
-	public void run() {
-		this.generated = new ArrayList<>();
+	public List<Burgemeester> call() throws Exception {
+		List<Burgemeester> generated = new ArrayList<>();
 
 		Stream.generate(BurgemeesterFactory::newRandomBurgemeester)
 				.filter(filter)
 				.limit(TO_GENERATE)
-				.forEach(this.generated::add);
-	}
+				.forEach(generated::add);
 
-	public List<Burgemeester> getList() {
 		return generated;
 	}
 }

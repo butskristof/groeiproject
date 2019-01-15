@@ -63,7 +63,7 @@ public class Demo_10 {
 
 			double avgTime = totalTime / TESTCOUNT;
 
-			System.out.printf("4 threads verzamelden elke 1000 Burgemeester objecten. Gemiddelde uit %d runs: %.1fms%n",
+			System.out.printf("4 threads verzamelden elk 1000 Burgemeester objecten. Gemiddelde uit %d runs: %.1fms%n",
 					TESTCOUNT, avgTime);
 
 		} catch (InterruptedException e) {
