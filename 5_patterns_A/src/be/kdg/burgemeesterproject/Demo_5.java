@@ -3,8 +3,10 @@ package be.kdg.burgemeesterproject;
 import be.kdg.burgemeesterproject.model.Burgemeester;
 import be.kdg.burgemeesterproject.model.BurgemeesterFactory;
 import be.kdg.burgemeesterproject.model.Burgemeesters;
+import be.kdg.burgemeesterproject.model.Partij;
 import be.kdg.burgemeesterproject.patterns.*;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -33,6 +35,11 @@ public class Demo_5 {
 
 		System.out.println("Empty Burgemeester");
 		System.out.println(BurgemeesterFactory.newEmptyBurgemeester().toString());
+		System.out.println();
+
+		System.out.println("Filled Burgemeester");
+//		public static Burgemeester newFilledBurgemeester(String naam, LocalDate geboortedatum, String gemeente, double procentVoorkeursstemmen, int termijnen, Partij partij) {
+		System.out.println(BurgemeesterFactory.newFilledBurgemeester("Peeters Jos", LocalDate.of(1980,6,15), "Ergens", 0.25, 1, Partij.LOKAAL));
 		System.out.println();
 
 		final int randomsToGenerate = 30;

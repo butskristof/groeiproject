@@ -22,6 +22,9 @@ public class BurgemeesterFactory {
 
 	private static Random generator = new Random();
 
+	private BurgemeesterFactory() {
+	}
+
 	// Voorzie een static factory-methode newEmptyDictator die de defaultconstructor van de basisklasse oproept en dus een “leeg” basisobject retourneert.
 	public static Burgemeester newEmptyBurgemeester() {
 		return new Burgemeester();
@@ -68,7 +71,7 @@ public class BurgemeesterFactory {
 		String lastName = lastNames[generator.nextInt(lastNames.length)];
 		String firstName = firstNames[generator.nextInt(firstNames.length)];
 
-		return lastName + " " + firstName;
+		return String.format("%s %s", lastName, firstName);
 	}
 
 	private static String generateString(int maxWordLength, int wordCount, boolean camelCase) {
@@ -76,7 +79,7 @@ public class BurgemeesterFactory {
 
 		for (int i = 0; i < wordCount; ++i) {
 			StringBuilder word = new StringBuilder();
-			int wordlength = generator.nextInt(maxWordLength) + 1; // should have at least one char in word
+			int wordlength = generator.nextInt(maxWordLength) + 3; // should have at least three chars in word
 			for (int j = 0; j < wordlength; ++j) {
 				double k = generator.nextDouble();
 				if (k <= 0.33) { // 1/3 vowel
