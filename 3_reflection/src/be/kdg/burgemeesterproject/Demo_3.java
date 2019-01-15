@@ -14,6 +14,6 @@ public class Demo_3 {
 		ReflectionTools.classAnalysis(Burgemeesters.class);
 
 		Object o = ReflectionTools.runAnnotated(Burgemeester.class);
-		System.out.println(o);
+		System.out.printf("Aangemaakt object door runAnnotated:%n%s", o.toString());
 	}
 }

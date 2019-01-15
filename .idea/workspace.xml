@@ -7,52 +7,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2a4a4dd9-f638-4eab-8618-635fcae48cac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/Demo_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/data/Data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/data/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/data/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/data/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/generics/FIFOQueue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/generics/PriorityQueue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/generics/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/generics/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/generics/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/model/Burgemeester.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/model/Partij.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/model/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/model/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/model/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/be/kdg/burgemeesterproject/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index-files/index-9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/doc/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/Demo_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/Demo_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeesters.java" beforeDir="false" afterPath="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeesters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/groeiproject$TestSuite.ic" NAME="TestSuite Coverage Results" MODIFIED="1542141846253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/groeiproject$TestSuite.ic" NAME="TestSuite Coverage Results" MODIFIED="1547547845025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.kdg.burgemeesterproject.model.*</FILTER>
     </SUITE>
   </component>
@@ -103,44 +61,75 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/9_xml_json/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="234">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Persoon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/CanRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
+        <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeesters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Partij.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="235">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -163,10 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/patterns/ObservableBurgemeesters.java" />
-        <option value="$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/patterns/BurgemeestersObserver.java" />
-        <option value="$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
-        <option value="$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/Demo_5.java" />
         <option value="$PROJECT_DIR$/5_patterns_A/src/be/kdg/burgemeesterproject/model/BurgemeesterFactory.java" />
         <option value="$PROJECT_DIR$/6_patterns_B/src/be/kdg/burgemeesterproject/model/UmodifiableBurgemeesters.java" />
         <option value="$PROJECT_DIR$/6_patterns_B/src/be/kdg/burgemeesterproject/model/patterns/UnmodifiableBurgemeesters.java" />
@@ -214,6 +199,10 @@
         <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/Demo_2.java" />
         <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java" />
         <option value="$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java" />
+        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java" />
+        <option value="$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java" />
+        <option value="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java" />
+        <option value="$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeesters.java" />
       </list>
     </option>
   </component>
@@ -233,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,27 +234,48 @@
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="2_generics" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="2_generics" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="2_generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
-              <item name="2_generics" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="burgemeesterproject" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="groeiproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="groeiproject" type="462c0819:PsiDirectoryNode" />
+              <item name="3_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -282,7 +292,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547508455471" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547547903636" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -327,13 +337,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo_2">
-    <configuration name="Demo_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_1" />
-      <module name="1_herhaling" />
+  <component name="RunManager" selected="Application.TestRunner">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.model.TestRunner" />
+      <module name="3_reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.kdg.burgemeesterproject.*" />
+          <option name="PATTERN" value="be.kdg.burgemeesterproject.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,66 +351,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_2" />
-      <module name="2_generics" />
+    <configuration name="TestBurgemeester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.kdg.burgemeesterproject.*" />
+          <option name="PATTERN" value="be.kdg.burgemeesterproject.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="be.kdg.burgemeesterproject.model" />
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.model.TestBurgemeester" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_8_JDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_8_JDBC" />
-      <module name="8_persistentie" />
+    <configuration name="TestBurgemeesters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.kdg.burgemeesterproject.*" />
+          <option name="PATTERN" value="be.kdg.burgemeesterproject.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="be.kdg.burgemeesterproject.model" />
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.model.TestBurgemeesters" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_8_Serialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo_8_Serialize" />
-      <module name="8_persistentie" />
+    <configuration name="TestBurgemeesters.testRemovedEarlier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.kdg.burgemeesterproject.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.kdg.burgemeesterproject.model" />
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.model.TestBurgemeesters" />
+      <option name="METHOD_NAME" value="testRemovedEarlier" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo_9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.Demo_9" />
-      <module name="9_xml_json" />
+    <configuration name="TestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.kdg.burgemeesterproject.*" />
+          <option name="PATTERN" value="be.kdg.burgemeesterproject.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="be.kdg.burgemeesterproject.model" />
+      <option name="MAIN_CLASS_NAME" value="be.kdg.burgemeesterproject.model.TestSuite" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo_8_Serialize" />
-      <item itemvalue="Application.Demo_8_JDBC" />
-      <item itemvalue="Application.Demo_9" />
-      <item itemvalue="Application.Demo_1" />
-      <item itemvalue="Application.Demo_2" />
+      <item itemvalue="JUnit.TestBurgemeester" />
+      <item itemvalue="JUnit.TestBurgemeesters" />
+      <item itemvalue="JUnit.TestBurgemeesters.testRemovedEarlier" />
+      <item itemvalue="JUnit.TestSuite" />
+      <item itemvalue="Application.TestRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo_2" />
-        <item itemvalue="Application.Demo_1" />
-        <item itemvalue="Application.Demo_9" />
-        <item itemvalue="Application.Demo_8_JDBC" />
-        <item itemvalue="Application.Demo_8_Serialize" />
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.TestSuite" />
+        <item itemvalue="JUnit.TestBurgemeesters" />
+        <item itemvalue="JUnit.TestBurgemeesters.testRemovedEarlier" />
+        <item itemvalue="JUnit.TestBurgemeester" />
       </list>
     </recent_temporary>
   </component>
@@ -438,31 +460,12 @@
       <workItem from="1543945380053" duration="4918000" />
       <workItem from="1543952216957" duration="724000" />
       <workItem from="1547504955146" duration="1479000" />
+      <workItem from="1547510372183" duration="2387000" />
+      <workItem from="1547546639291" duration="1040000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 51m 12s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 53m 08s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 53m 27s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 53m 57s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 54m 23s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 55m 24s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 55m 42s.xml">
-      <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 55m 48s.xml">
       <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
     </history-entry>
@@ -472,14 +475,36 @@
     <history-entry file="UnmodifiableBurgemeestersTest - 2018.11.15 at 17h 59m 55s.xml">
       <configuration name="UnmodifiableBurgemeestersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBurgemeester - 2019.01.15 at 11h 20m 44s.xml">
+      <configuration name="TestBurgemeester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBurgemeesters - 2019.01.15 at 11h 21m 59s.xml">
+      <configuration name="TestBurgemeesters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBurgemeesters_testRemovedEarlier - 2019.01.15 at 11h 22m 27s.xml">
+      <configuration name="TestBurgemeesters.testRemovedEarlier" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBurgemeesters_testRemovedEarlier - 2019.01.15 at 11h 23m 17s.xml">
+      <configuration name="TestBurgemeesters.testRemovedEarlier" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBurgemeesters - 2019.01.15 at 11h 23m 36s.xml">
+      <configuration name="TestBurgemeesters" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.01.15 at 11h 23m 46s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSuite - 2019.01.15 at 11h 24m 07s.xml">
+      <configuration name="TestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46306000" />
+    <option name="totallyTimeSpent" value="49869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1399" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1687546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,7 +513,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35826772" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3464567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39763778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,56 +542,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/6_patterns_B/src/be/kdg/burgemeesterproject/TestUnmodifiableBurgemeesters.java" />
-    <entry file="file://$PROJECT_DIR$/6_patterns_B/src/be/kdg/burgemeesterproject/patterns/UnmodifiableBurgemeesters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_patterns_B/src/be/kdg/burgemeesterproject/patterns/UnmodifiableBurgemeestersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_streams/src/be/kdg/burgemeesterproject/util/Functies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_streams/src/be/kdg/burgemeesterproject/Demo_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_streams/src/be/kdg/burgemeesterproject/model/Partij.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7_streams/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -762,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4_logging/src/be/kdg/burgemeesterproject/data/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -869,9 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java">
+    <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="93">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -892,13 +861,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
+    <entry file="file://$PROJECT_DIR$/2_generics/src/be/kdg/burgemeesterproject/generics/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeesters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/CanRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Burgemeester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/model/Persoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/reflection/ReflectionTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/src/be/kdg/burgemeesterproject/Demo_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_reflection/test/be/kdg/burgemeesterproject/model/TestBurgemeesters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -954,7 +988,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>6_patterns_B</last-edited>
+          <last-edited>3_reflection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -967,7 +1001,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-2.8.2</last-edited>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

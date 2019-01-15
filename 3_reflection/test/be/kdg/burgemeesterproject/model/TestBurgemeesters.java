@@ -48,20 +48,19 @@ public class TestBurgemeesters {
 //			assertFalse("Remove mislukt: dit object zou al verwijderd moeten zijn in de vorige test", burgemeesters.verwijder("Onbekend", "Onbekend"));
 //			assertFalse("Dit object zou niet mogen bestaan", burgemeesters.verwijder("Jos Peeters", "Antwerpen"));
 			assertTrue("Zou moeten bestaan", burgemeesters.verwijder("Van den Sande Joppe", "Heist-op-den-Berg"));
-
 		} catch (Exception e) {
 			fail("Er trad een exception op: " + e.getMessage());
 		}
 	}
 
-	@Test(expected = NullPointerException.class)
+	@Test
 	public void testRemovedEarlier() {
 		burgemeesters.voegToe(b1);
 		assertTrue("Remove mislukt: false ontvangen van methode voor bestaand object", burgemeesters.verwijder("Onbekend", "Onbekend"));
 		assertFalse("Remove mislukt: dit object zou al verwijderd moeten zijn in de vorige test", burgemeesters.verwijder("Onbekend", "Onbekend"));
 	}
 
-	@Test(expected = NullPointerException.class)
+	@Test
 //	@Test
 	public void testRemoveNotExisting() {
 		assertFalse("Dit object zou niet mogen bestaan", burgemeesters.verwijder("Jos Peeters", "Antwerpen"));

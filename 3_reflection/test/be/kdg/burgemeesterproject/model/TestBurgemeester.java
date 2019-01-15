@@ -71,6 +71,7 @@ public class TestBurgemeester {
 	 */
 	@Test
 	public void testEqualsDouble() {
-		assertEquals("Waarden moeten binnen de opgegeven tolerantie liggen.", b2.getProcentVoorkeursstemmen(), 0.299, 0.005 );
+		assertEquals("Waarden moeten binnen de opgegeven tolerantie liggen.",
+				b2.getProcentVoorkeursstemmen(), 0.299, 0.005 );
 	}
 }
