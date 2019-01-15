@@ -35,7 +35,7 @@ public class Demo_4 {
 	}
 
 	private static void loadLogConfig() {
-		File f = new File("logging.properties");
+		File f = new File("./logging.properties");
 		if (f.exists()) {
 			try (FileInputStream fis = new FileInputStream(f)) {
 				LogManager.getLogManager().readConfiguration(fis);

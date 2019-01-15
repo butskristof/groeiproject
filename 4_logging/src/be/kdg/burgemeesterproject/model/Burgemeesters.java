@@ -9,12 +9,15 @@ import java.util.logging.Logger;
  * @version 1.0 11/12/18 3:29 PM
  */
 public class Burgemeesters {
-	private static Logger logger;
+	private static Logger logger = Logger.getLogger(Burgemeesters.class.getName());
 
-	private TreeSet<Burgemeester> elements = new TreeSet<>();
+	private static TreeSet<Burgemeester> elements = new TreeSet<>();
+
+	static {
+		logger.setLevel(Level.FINER);
+	}
 
 	public Burgemeesters() {
-		logger = Logger.getLogger(Burgemeesters.class.getName());
 		logger.setLevel(Level.FINER);
 	}
 
@@ -28,7 +31,6 @@ public class Burgemeesters {
 	}
 
 	public boolean verwijder(String naam, String gemeente) {
-		// TODO review
 		Burgemeester search = this.zoek(naam, gemeente);
 		if (search == null) {
 			return false;
